@@ -1,0 +1,63 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@200,300,400,500,700,800,900&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=onest@300,400,500,600,700,800,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+    --accent: #00f3ff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Onest', var(--font-sans), sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .font-sans {
+    font-family: var(--font-sans), sans-serif;
+  }
+  .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+}
+
+/* Base typography refinements */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans tracking-tighter;
+}
+
+p, span, div {
+  @apply font-sans;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  @apply transition-colors;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+::selection {
+  background: white;
+  color: black;
+}
