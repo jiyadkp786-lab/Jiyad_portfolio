@@ -35,8 +35,9 @@ export default function Navbar() {
         {/* Right: CTA & Utils */}
         <div className="flex items-center gap-6">
           <motion.a 
-            href="/Mohammed jiyadh Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="hidden sm:flex items-center gap-3 bg-white text-black pl-5 pr-8 py-3 font-satoshi font-bold text-[12px] tracking-widest group uppercase"

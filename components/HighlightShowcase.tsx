@@ -111,19 +111,23 @@ export default function HighlightShowcase() {
 
           <div className="flex flex-wrap gap-4 mb-12">
             <motion.a
-              href="/Mohammed jiyadh Resume.pdf"
+              href="/resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ x: 5 }}
               className="bg-white text-black pl-5 pr-8 py-4 flex items-center gap-4 font-satoshi font-bold text-sm uppercase tracking-widest"
             >
               <span className="text-lg">→</span> My CV
             </motion.a>
-            <motion.button 
+            <motion.a 
+              href="https://www.behance.net/jiyadkp"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ x: 5 }}
               className="bg-[#1a1a1a] text-white pl-5 pr-8 py-4 flex items-center gap-4 font-satoshi font-bold text-sm border border-zinc-800 uppercase tracking-widest"
             >
               <span className="text-lg text-zinc-500">→</span> View All Work
-            </motion.button>
+            </motion.a>
           </div>
         </div>
 
