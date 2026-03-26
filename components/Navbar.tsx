@@ -6,6 +6,7 @@ import GooeyNav from './GooeyNav';
 
 export default function Navbar() {
   const navItems = [
+    { label: 'Experience_', href: '#experience' },
     { label: 'Works', href: '#works' },
     { label: 'Behance', href: 'https://www.behance.net/jiyadkp' },
     { label: 'Contact', href: '#contact' },

@@ -13,7 +13,7 @@ import ContactSection from '@/components/ContactSection';
 import HighlightShowcase from '@/components/HighlightShowcase';
 import MobileShowcase from '@/components/MobileShowcase';
 import LoadingScreen from '@/components/LoadingScreen';
-import SkillsSection from '@/components/SkillsSection';
+import ExperienceSection from '@/components/ExperienceSection';
 
 export default function Home() {
   const [hasEntered, setHasEntered] = useState(false);
@@ -65,7 +65,7 @@ export default function Home() {
             {/* Replacement for Laptop Section - Typography focused showcase */}
             <HighlightShowcase />
             
-            <SkillsSection />
+            <ExperienceSection />
 
             <ContactSection />
           </div>

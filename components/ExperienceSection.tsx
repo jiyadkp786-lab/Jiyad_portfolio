@@ -15,9 +15,9 @@ const skills = [
   { name: 'Interaction', level: 'Fluent', icon: '✨' },
 ];
 
-export default function SkillsSection() {
+export default function ExperienceSection() {
   return (
-    <section className="py-32 px-12 md:px-24 bg-black relative overflow-hidden" id="skills">
+    <section className="py-32 px-12 md:px-24 bg-black relative overflow-hidden" id="experience">
       <div className="max-w-[1400px] mx-auto">
         
         {/* Header */}
