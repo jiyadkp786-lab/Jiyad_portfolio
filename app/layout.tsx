@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'MOHAMMED JIYADH | Creative Strategist & Designer',
+  title: 'MOHAMMED JIYADH | UI/UX Designer & Front End Developer',
   description: 'Digital Product Designer and User Experience Strategist portfolio building high-end interactive experiences.',
 };
 

@@ -43,14 +43,18 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress?: MotionV
         </span>
         
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end w-full gap-20">
-          {/* Name removed to Loading Screen as per request */}
-          <div className="flex-1" />
+          <div className="flex flex-col">
+            <h1 className="text-3xl md:text-7xl lg:text-[90px] font-sans font-black text-white leading-[0.8] tracking-[-0.05em] uppercase">
+              MOHAMMED<br />
+              JIYADH
+            </h1>
+          </div>
           
           <div className="flex justify-end pb-4">
             <CornerBox className="">
               <p className="text-sm md:text-xl text-white font-black tracking-[0.2em] text-right uppercase">
-                UI/UX Designer +<br />
-                User Experience
+                UI/UX Designer &<br />
+                Front End Developer
               </p>
             </CornerBox>
           </div>

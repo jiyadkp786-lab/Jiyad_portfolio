@@ -91,9 +91,9 @@ export default function HighlightShowcase() {
               viewport={{ once: true }}
               className="text-4xl md:text-6xl lg:text-[90px] font-clash font-extrabold text-white leading-[0.8] tracking-[-0.05em] uppercase"
             >
-              <span className="bg-white text-black px-2 mr-2">UI/UX Designer +</span>
+              <span className="bg-white text-black px-2 mr-2">UI/UX Designer &</span>
               <br />
-              <span className="bg-white text-black px-2 mr-2 leading-tight">User Experience</span>
+              <span className="bg-white text-black px-2 mr-2 leading-tight">Front End Developer</span>
               <span className="block mt-6">Strategist based</span>
               <span className="block mt-6 text-3xl md:text-5xl lg:text-7xl opacity-40 font-satoshi font-medium tracking-normal normal-case italic">in Kerala, India</span>
             </motion.h2>
